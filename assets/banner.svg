@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0b1e"/>
+      <stop offset="45%" stop-color="#1a1230"/>
+      <stop offset="100%" stop-color="#2b1140"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#7b2ff7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7b2ff7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gemFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8be9fd" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#bd93f9" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <!-- decorative faint gems -->
+  <polygon points="120,60 155,90 140,135 95,135 80,90" fill="url(#gemFill)" opacity="0.5"/>
+  <polygon points="1080,50 1120,80 1105,130 1055,130 1040,80" fill="url(#gemFill)" opacity="0.5"/>
+  <polygon points="150,270 185,295 170,335 125,335 110,295" fill="url(#gemFill)" opacity="0.35"/>
+  <polygon points="1050,260 1090,285 1075,330 1025,330 1010,285" fill="url(#gemFill)" opacity="0.35"/>
+
+  <circle cx="600" cy="60" r="3" fill="#ffffff" opacity="0.5"/>
+  <circle cx="250" cy="180" r="2" fill="#ffffff" opacity="0.4"/>
+  <circle cx="950" cy="200" r="2.5" fill="#ffffff" opacity="0.4"/>
+  <circle cx="400" cy="40" r="1.8" fill="#ffffff" opacity="0.35"/>
+  <circle cx="820" cy="70" r="2" fill="#ffffff" opacity="0.3"/>
+
+  <line x1="200" y1="320" x2="1000" y2="320" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+  <path d="M 100 300 Q 600 260 1100 300" stroke="#8be9fd" stroke-opacity="0.15" stroke-width="1.5" fill="none"/>
+
+  <text x="600" y="170" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="64.0" fill="#ffffff" font-weight="600">
+    <tspan>Cut Gem Script</tspan>
+  </text>
+
+  <text x="600" y="225" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21.0" fill="#c9d1d9">
+    <tspan font-size="19.8">Script hub for Cut a Gem players — reads gem stats, processes cut combos, exports best results.</tspan>
+  </text>
+</svg>
